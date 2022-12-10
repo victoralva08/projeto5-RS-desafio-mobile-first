@@ -98,7 +98,7 @@ p{
     border-radius: 8rem;
 }
 
-.card h1, .card2 h1{
+span{
     position: absolute;
     bottom: 19.9rem;
     left: 19.2rem;
@@ -116,7 +116,7 @@ p{
     width: 8rem;
 }
 
-.card2 h1{
+.card2 span{
     position: absolute;
     bottom: 39.9rem;
     left: 19.2rem;
