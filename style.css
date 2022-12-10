@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Criação das variáveis */
+:root{
+
+    --ff-head: 'Staatliches', sans-serif;
+    --ff-text:'Palanquin', sans-serif;
+
+    --bg-primary: hsl(233, 100%, 97%);
+    --bg-head: hsl(218, 17%, 62%);
+    --bg-h1: hsl(275, 18%, 79%);
+    --bg-cardtext: hsl(312, 91%, 96%);
+
+    font-size: 62.5%;
+    --fs-head: 4rem;
+    --fs-body: 1.5rem;
+    --fc-head: hsl(0, 0%, 100%);
+    --fc-text: hsl(274, 84%, 12%);
+    --fc-card: hsl(232, 17%, 35%);
+
+}
+
+/* Posicionamento dos elementos HTML no display mobile */
+
+body{
+    background: var(--bg-primary);
+}
+
+.page{
+    min-width: 38.4rem;
+    width: 38.4rem;
+    margin: 0 auto;
+}
+
+header{
+    background: var(--bg-head);
+    height: 27.9rem;
+    margin-bottom: 14px;
+}
+
+header img{
+    display: flex;
+    margin: 0 auto 3.2rem;
+    padding-top: 3.2rem;
+    height: 16.7rem;
+}
+
+header h1{
+    font-family: var(--ff-head);
+
+    font-weight: 400;
+    font-size: var(--fs-head);
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    color: var(--fc-head);
+
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.3);
+
+    background: var(--bg-h1);
+    
+    text-align: center;
+    padding: 8px 0;
+}
+
+main{
+    padding: 0 3.2rem;
+    margin-bottom: 6rem;
+}
+
+p{
+    width: 30.5rem;
+    text-align: center;
+
+    font-family: var(--ff-text);
+    font-size: var(--fs-body);
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: var(--fc-text);
+
+    margin-bottom: 6.3rem;
+
+}
+
+.cards{
+    display: grid;
+    gap: 3.2rem;
+}
+
+.card, .card2{
+    position: relative;
+}
+
+.card img, .card2 img{
+    border-radius: 8rem;
+}
+
+.card h1, .card2 h1{
+    position: absolute;
+    bottom: 19.9rem;
+    left: 19.2rem;
+
+    font-family: var(--ff-head);
+    font-size: var(--fs-body);
+    font-weight: normal;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    color: var(--fc-card);
+
+    background: var(--bg-cardtext);
+    text-align: center;
+    border-radius: 20px;
+    width: 8rem;
+}
+
+.card2 h1{
+    position: absolute;
+    bottom: 39.9rem;
+    left: 19.2rem;
+}
+
+
+
+
