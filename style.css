@@ -32,13 +32,14 @@ body{
 
 .page{
     min-width: 38.4rem;
-    width: 38.4rem;
+    
     margin: 0 auto;
 }
 
 header{
     background: var(--bg-head);
     margin-bottom: 14px;
+    width: 100%;
 
     display: grid;
     place-items: center;
@@ -71,7 +72,8 @@ header h1{
 
 main{
     padding: 0 3.2rem;
-    margin-bottom: 6rem;
+    width: 38.4rem;
+    margin: 0 auto 6rem;
 }
 
 p{
