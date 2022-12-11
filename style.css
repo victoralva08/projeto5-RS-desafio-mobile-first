@@ -38,19 +38,22 @@ body{
 
 header{
     background: var(--bg-head);
-    height: 27.9rem;
     margin-bottom: 14px;
+
+    display: grid;
+    place-items: center;
 }
 
 header img{
-    display: flex;
-    margin: 0 auto 3.2rem;
     padding-top: 3.2rem;
+    margin-bottom: 3.2rem;
     height: 16.7rem;
 }
 
 header h1{
     font-family: var(--ff-head);
+    width: 100%;
+    margin-bottom: 30px;
 
     font-weight: 400;
     font-size: var(--fs-head);
@@ -90,18 +93,18 @@ p{
     gap: 3.2rem;
 }
 
-.card, .card2{
+.card{
     position: relative;
 }
 
-.card img, .card2 img{
+.card img{
     border-radius: 8rem;
 }
 
 span{
     position: absolute;
-    bottom: 19.9rem;
-    left: 19.2rem;
+    top: 2rem;
+    right: 5rem;
 
     font-family: var(--ff-head);
     font-size: var(--fs-body);
